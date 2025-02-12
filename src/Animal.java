@@ -18,6 +18,10 @@ public class Animal {
         this.mass = mass;
     }
 
+    public float getMass() {
+        return mass;
+    }
+
     public void setSpecies(String species) {
         this.species = species;
     }

@@ -5,14 +5,14 @@
 
 public class TestAnimal {
     public static void main(String[] args){
-        Animal snail = new Animal(3.5, "snail", 1);
+        Animal snail = new Animal(3.5f, "snail", 1);
         snail.print();
         snail.getAnimalPopulation();
         
         Animal fish = new Animal ("fish");
         fish.print();
         snail.getAnimalPopulation();
-        fish.setMass(4.2);
+        fish.setMass(4.2f);
         
         Animal dog = new Animal(15, "dog", 4);
         dog.print();
